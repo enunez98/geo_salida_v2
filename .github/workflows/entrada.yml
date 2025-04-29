@@ -1,9 +1,6 @@
 name: Marcar Salida GeoVictoria
 
 on:
-  schedule:
-    - cron: '0 23 * * 1-4'  # Lunes a jueves a las 19:00 (Chile)
-    - cron: '0 22 * * 5'    # Viernes a las 18:00 (Chile)
   workflow_dispatch:
 
 jobs:
